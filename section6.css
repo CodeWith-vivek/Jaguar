@@ -1,0 +1,306 @@
+.sixth-section {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 80px;
+    justify-content: space-between;
+    background-color: #3c3c3a;
+    padding-bottom: 10px;
+    
+}
+
+.layout-1 {
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+
+}
+
+.first-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 12.3px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 19px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+    margin-top: 16px;
+
+}
+
+.info {
+
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.info:hover{
+    text-decoration: underline;
+}
+.info0{
+    color: white;
+        font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 15px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        text-align: left;
+        word-spacing: 0px;
+        text-decoration: none;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        font-weight: 500;
+    
+}
+.info0:hover{
+    text-decoration: underline;
+}
+.info4{
+    width: 100%;
+    height: 46px;
+    color: white;
+        font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 15px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        text-align: left;
+        word-spacing: 0px;
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-weight: 500;
+        position: relative;
+        margin-bottom: 3px;
+        padding-top: 3px;
+        font-weight: 500;
+    }
+        .info4:hover .social-name {
+            text-decoration: underline;
+        }
+.social-logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.15s;
+    
+}
+.social-logo:hover{
+    opacity: 0;
+}
+.social-logo01 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.social-name{
+    position: absolute;
+    top: 10px;
+    left: 62px;
+}
+.info7{
+    width: 100%;
+        height: 46px;
+    color: white;
+        font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 15px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        text-align: left;
+        word-spacing: 0px;
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-weight: 500;
+        position: relative;
+        padding: 0px;
+        margin-bottom: 3px;
+            padding-top: 3px;
+            font-weight: 500;
+        }
+
+.social-logo2{
+    position: absolute;
+        top:  0px;
+        left: 0px;
+        transition: 0.15s;
+
+}
+.social-logo02 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.social-logo2:hover{
+    opacity: 0;
+}
+.social-name3{
+    position: absolute;
+        top: 7px;
+        left: 62px;
+
+}
+        .info7:hover .social-name3 {
+            text-decoration: underline;
+        }
+.info8 {
+    width: 100%;
+        height: 46px;
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 20px;
+    padding: 0px;
+    margin-bottom: 3px;
+        padding-top: 3px;
+        font-weight: 500;
+}
+
+.social-logo3 {
+    position: absolute;
+    top:  0px;
+    left: 0px;
+    transition: 0.15s;
+
+}
+.social-logo3:hover {
+    opacity: 0;
+}
+.social-logo03 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.social-name4 {
+    position: absolute;
+    top: 7px;
+    left: 62px;
+
+}
+        .info8:hover .social-name4 {
+            text-decoration: underline;
+        }
+.info9 {
+    width: 100%;
+        height: 46px;
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 20px;
+    padding: 0px;
+    margin-bottom: 3px;
+        padding-top: 3px;
+        font-weight: 500;
+
+}
+
+.social-logo4 {
+    position: absolute;
+    top: 0px;
+        left: 4px;
+        transition: 0.15s;
+    }
+        .social-logo4:hover {
+            opacity: 0;
+        }
+        .social-logo04 {
+            position: absolute;
+            top: 0px;
+            left: 3px;
+            transition: 0.15s;
+        }
+
+.social-name5 {
+    position: absolute;
+    top: 7px;
+    left: 62px;
+
+}
+        .info9:hover .social-name5 {
+            text-decoration: underline;
+        }
+.info10 {
+    width: 100%;
+        height: 46px;
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 3px;
+        padding-top: 3px;
+        font-weight: 500;
+    
+}
+
+.social-logo5 {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+.social-logo5:hover {
+    opacity: 0;
+}
+.social-logo05{
+    position: absolute;
+    top: 0px;
+    left: 3px;
+}
+
+.social-name6 {
+    position: absolute;
+    top: 10px;
+    left: 62px;
+
+}    .info10:hover .social-name6 {
+        text-decoration: underline;
+    }

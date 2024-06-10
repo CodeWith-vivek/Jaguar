@@ -1,0 +1,17 @@
+.eight-section{
+    display: flex;
+    justify-content: left;
+background-color: #3c3c3a;
+padding-left: 82.5px;
+padding-right: 82.5px;
+padding-bottom: 40px;
+}
+.eight-section span{
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif ;font-size: 10px ;font-weight: 500; letter-spacing: 0.9px; line-height: 15px;  text-align: left; word-spacing: 0px;
+    font-weight: 500;
+    color: white;
+    padding-right: 12px;
+}
+.eight-section span:hover{
+    text-decoration: underline;
+}

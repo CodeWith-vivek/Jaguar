@@ -1,0 +1,60 @@
+.fifth-section {
+    display: flex;
+    
+    background-color: black;
+    padding-left: 242.5px;
+    padding-right: 242.5px;
+
+}
+
+.div1 {
+    width: 290px;
+    padding: 40px 20px 40px 40px;
+}
+.div1:hover{
+    cursor: pointer;
+
+}
+.div1:hover .p5{
+    text-decoration: underline;
+}
+
+.icon-car {
+    width: 51px;
+    height: 51px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.greater-than1 {
+    width: 19px;
+        height: 16px;
+        margin-right: 3px;
+    
+}
+
+.p5 {
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 13px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.p6 {
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    color: white;
+}
+hr{
+    margin: 0px;
+}

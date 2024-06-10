@@ -1,0 +1,138 @@
+.third-section {
+    display: flex;
+
+    justify-content: center;
+    background-color: #000000;
+    padding: 60px 60px 80px 60px;
+}
+
+.car {
+    width: 650px;
+    
+    filter: saturate(1.2);
+    filter: brightness(0.9);
+    transition: 0.5s;
+}
+
+.third-section-left-side {
+    /* display: flex;
+    flex-direction: column; */
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.car1 {
+    width: 650px;
+   
+    filter: saturate(1.2);
+    filter: brightness(0.9);
+    transform: 21s;
+    transition: 0.5s;
+    
+}
+
+.car1:hover,
+.car:hover {
+
+    filter: brightness(0.6);
+}
+
+.car-modal1 {
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 15px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+    color: white;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.car-price {
+    font-family: AvenirNext, arial, helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    text-decoration: none solid rgb(249, 249, 249);
+    word-spacing: 0px;
+    color: white;
+    margin: 0px;
+    margin-bottom: 16px;
+    margin-top: 3px;
+   
+}
+
+.main-feature {
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+    margin-bottom: 50px;
+}
+
+.design-button {
+    display: block;
+    color: white;
+    font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    line-height: 13px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    border: solid;
+    border-color: #3c3c3a;
+    text-transform: uppercase;
+    font-weight: 400;
+    height: 23px;
+    width: 172.047px;
+    padding: 15px 20px 15px 40px;
+    background-color: #3c3c3a;
+    position: relative;
+    border-width: 1px;
+    transition: 0.15s;
+    cursor: pointer;
+    
+}
+.design-button:hover{
+    border-width: 1px;
+    border-color: white;
+    background-color: black;
+    
+}
+.third-section-right-side {
+    padding-left: 20px;
+}
+
+.arrow {
+    width: 17px;
+    padding-right: 5px;
+    padding-top: 2px;
+    position: absolute;
+    left:13px;
+}
+.greater-than{
+    width: 11px;
+    padding-right: 13px;
+}
+.greater-than:hover{
+    cursor: pointer;
+}
+.explore-1{
+color: white; font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif; font-size: 12px ;font-weight: 500; letter-spacing: 1.2px ;line-height: 14px ;text-decoration: none solid rgb(255, 255, 255) ;text-align: center ;word-spacing: 0px;
+text-align: start;
+text-transform: uppercase;
+
+margin-top: 25px;
+
+}
+.explore-word:hover{
+    
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+ .fourth-section {
+
+     background-color: #141414;
+     padding: 60px 60px 80px 60px;
+     margin-left: 62.5px;
+     margin-right: 62.5px;
+     position: relative;
+ }
+
+ .car-f1 {
+     width: 1660px;
+     cursor: grab;
+ }
+
+ .dot1,
+ .dot2,
+ .dot3 {
+     width: 14px;
+    padding-left: 14px;
+    cursor: pointer;
+ }
+
+ .doted-slide {
+     position: absolute;
+    bottom: 255px;
+     transition: 0.15s;
+     left: 85px;
+ }
+
+ .doted-slide:hover {
+
+     cursor: pointer;
+
+ }
+
+ .slide-left {
+     position: absolute;
+   
+     width: 28px;
+     left: 91px;
+    bottom: 602px;
+    cursor: pointer;
+ }
+
+ .slide-right {
+     position: absolute;
+     width: 25px;
+        bottom: 607px;
+     right: 100px;
+     cursor: pointer;
+ }
+
+ .third-section-bottom {
+     display: flex;
+
+     margin-left: 160px;
+     margin-right: 160px;
+     padding-top: 37px;
+ }
+ .third-bottom-left {
+    cursor: grab;
+    
+     width: 360px;
+     height: 100%;
+     margin: 0px;
+
+ }
+
+ .p1 {
+     margin: 0px;
+     color: white;
+     font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     letter-spacing: 4.33px;
+     line-height: 24px;
+     text-decoration: none solid rgb(255, 255, 255);
+     text-align: left;
+     word-spacing: 0px;
+   
+ }
+
+ .p2 {
+     margin: 0px;
+     display: inline-block;
+     width: 550px;
+     color: white;
+     padding-left: 43px;
+     font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+     font-size: 13px;
+     line-height: 19px;
+     text-decoration: none solid rgb(255, 255, 255);
+     text-align: left;
+     word-spacing: 0px;
+     cursor: grab;
+ }
+ .learn-more{
+    display: block;
+        color: white;
+        font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        line-height: 13px;
+        text-decoration: none solid rgb(255, 255, 255);
+        text-align: center;
+        word-spacing: 0px;
+        border: solid;
+        border-color: #3c3c3a;
+        text-transform: uppercase;
+        font-weight: 400;
+    height: 15px;
+        width: 99.13px;
+        padding: 15px 20px 15px 40px;
+        background-color: #3c3c3a;
+        position: relative;
+        border-width: 1px;
+        transition: 0.15s;
+        margin-left: 43px;
+        margin-top: 24px;
+        transition: .5s;
+ }
+ .learn-more:hover{
+    border-width: 1px;
+        border-color: white;
+        background-color: black;
+        cursor: pointer;
+
+ }
+ .arrow2{
+    width: 17px;
+        padding-right: 5px;
+        padding-top: 2px;
+        position: absolute;
+        left: 14px;
+        top: 12px;
+ }
