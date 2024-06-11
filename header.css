@@ -56,10 +56,11 @@ header{
 
 .location-pin-icon,
 .save-pin-icon {
-    width: 22px;
-    height: 22px;
-    padding-top: 26px;
-    padding-right: 20px;
+   width: 19px;
+    height: 23px;
+    padding-top: 25px;
+    padding-right: 15px;
+
 }
 .header-section1:hover{
     background-color: #4d4d49;
