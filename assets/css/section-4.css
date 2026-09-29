@@ -7,8 +7,13 @@
      position: relative;
  }
 
+ .slide {
+     position: relative;
+ }
+
  .car-f1 {
-     width: 1660px;
+     display: block;
+     width: 100%;
      cursor: grab;
  }
 
@@ -22,9 +27,9 @@
 
  .doted-slide {
      position: absolute;
-    bottom: 255px;
+    bottom: 25px;
      transition: 0.15s;
-     left: 85px;
+     left: 25px;
  }
 
  .doted-slide:hover {
@@ -37,24 +42,26 @@
      position: absolute;
    
      width: 28px;
-     left: 91px;
-    bottom: 602px;
+     left: 31px;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
  }
 
  .slide-right {
      position: absolute;
      width: 25px;
-        bottom: 607px;
-     right: 100px;
+        top: 50%;
+        transform: translateY(-50%);
+     right: 40px;
      cursor: pointer;
  }
 
  .third-section-bottom {
      display: flex;
 
-     margin-left: 160px;
-     margin-right: 160px;
+     margin-left: 8.33vw;
+     margin-right: 8.33vw;
      padding-top: 37px;
  }
  .third-bottom-left {
@@ -83,7 +90,7 @@
  .p2 {
      margin: 0px;
      display: inline-block;
-     width: 550px;
+     max-width: 550px;
      color: white;
      padding-left: 43px;
      font-family: ProximaNova, "Arial Unicode MS", Arial, Helvetica, sans-serif;

@@ -2,13 +2,15 @@
     display: flex;
     
     background-color: black;
-    padding-left: 242.5px;
-    padding-right: 242.5px;
+    justify-content: center;
+    padding-left: 12.63vw;
+    padding-right: 12.63vw;
 
 }
 
 .div1 {
-    width: 290px;
+    flex: 0 1 290px;
+    min-width: 0;
     padding: 40px 20px 40px 40px;
 }
 .div1:hover{
